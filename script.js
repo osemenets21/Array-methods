@@ -113,3 +113,20 @@ function SearchNumber(arr, num){
 }
 
 console.log(SearchNumber(arrayOfNumbers2, 999));
+
+// _____________________________________________________________________________________
+
+// Reverse array with for loop
+
+const arrOfNumbers = [9,8,7,6,5,4,3,2,1,0];
+
+function reverseArr(arr){
+    let normalArr = [];
+
+    for(let i = arr.length - 1; i >= 0; i--){
+        normalArr.push(arr[i]);
+    }
+    return normalArr;
+}
+
+console.log(reverseArr(arrOfNumbers));
