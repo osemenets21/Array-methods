@@ -130,3 +130,18 @@ function reverseArr(arr){
 }
 
 console.log(reverseArr(arrOfNumbers));
+
+// _____________________________________________________________________________________
+
+// Reverse of string
+
+function reverseString(string){
+    let arr =  string.split('');
+    let rev = arr.reverse();
+    let result = rev.join('')
+    console.log(result);
+}
+
+reverseString('Oleh');
+
+
